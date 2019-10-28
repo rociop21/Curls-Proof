@@ -1,0 +1,426 @@
+const alcohols = [
+  "alcohol 40-b", 
+  "alcohol 40b", 
+  "alcohol denat", 
+  "alcohol-40b", 
+  "denatured alcohol", 
+  "ethyl alcohol", 
+  "isopropanol", 
+  "isopropyl alcohol", 
+  "propyl alcohol", 
+  "propanol",
+  "etanol",
+  "ethanol",
+  "alcohol",
+  "sd alcohol", 
+  "sd alcohol 40",
+  "sugarcane derived alcohol"
+  ]
+
+const good = [
+  "behenyl alcohol",
+  "cetearyl alcohol",
+  "ceteryl alcohol",
+  "cetyl alcohol",
+  "isocetyl alcohol",
+  "isostearyl alcohol",
+  "lauryl alcohol",
+  "myristyl alcohol",
+  "stearyl alcohol",
+  "c30-50 alcohols",
+  "lanolin alcohol",
+  "benzyl alcohol",
+  "stearyl alcohol",
+  "aminomethyl propanol",
+  "oleyl alcohol",
+  "brassica alcohol",
+  "benzyl alcohol",
+  "arachidyl alcohol",
+  "phenethyl alcohol",
+  "undecyl alcohol",
+  "amyl cinnamyl alcohol",
+  "amylcinnamyl alcohol",
+  "amino-2-methyl-1-propanol",
+  "aminomethyl propanol",
+  "amino methyl propanol",
+  "c14-22 alcohol",
+  "c20-c22 alcohol",
+  "phenylpropanol",
+  "acetyl alcohol",
+  "steareth alcohol",
+  "phenyl ethyl alcohol",
+  "phenylethyl alcohol",
+  "acetylated lanolin alcohol",
+  "cinnamyl alcohol",
+  "phenethyl alcohol",
+  "cinnamic alcohol",
+  "behenyl alcohol",
+  "pantothenyl alcohol",
+  "coconut alcohol",
+  "butylene alcohol",
+  //misspellings
+  "steoryl alcohol"
+]
+
+const notAlcohol = [
+  "triisopropanolamine"
+]
+
+//sulfates + those similar to sulfates
+//sulphate is used in UK and some other countries
+const sulfates = [
+  "ammonium lauryl sulfate",
+  "ammonium lauryl sulphate",
+
+  "ammonium laureth sulfate",
+  "ammonium laureth sulphate",
+
+  "sodium lauryl sulfate",
+  "sodium lauryl sulphate",
+
+  "sodium laureth sulfate",
+  "sodium laureth sulphate",
+
+  //tea sulfate
+  "tea lauryl sulfate",
+  "tea lauryl sulphate",
+
+  // tea sulfate
+  "tea-dodecylbenzenesulfonate",
+  // tea sulfate
+  "triethanolamine lauryl sulfate",
+  "triethanolamine lauryl sulphate",
+
+  "sodium cetearyl sulfate",
+  "sodium cetearyl sulphate",
+
+  "sodium trideceth sulfate",
+  "sodium trideceth sulphate",
+
+  "sodium coco sulfate",
+  "sodium coco sulphate",
+
+  "sodium cocosulfate",
+  "sodium cocosulphate",
+
+  "sodium coco-sulfate",
+  "sodium coco-sulphate",
+
+  "sodium coceth sulfate",
+  "sodium coceth sulphate",
+
+
+  "ammonium laureth sulfate",
+  "ammonium laureth sulphate",
+
+  "ammonium lauryl sulfate",
+  "ammonium lauryl sulphate",
+
+  "sodium myreth sulfate",
+  "sodium myreth sulphate",
+
+  "sodium polystyrene sulfate",
+  "sodium polystyrene sulphate",
+
+  "ammonium cocoyl sulfate",
+  "ammonium cocoyl sulphate",
+
+  "sodium c12-18 alkyl sulfate",
+  "sodium c12-18 alkyl sulphate",
+
+  "sodium alkyl sulfate",
+  "sodium alkyl sulphate",
+
+  "sodium laureth-40 sulfate",
+  "sodium laureth-40 sulphate",
+
+
+
+  "alkylbenzene sulfonate",
+  "alkyl benzene sulfonate",
+
+  "ammonium xylenesulfonate",
+  "ammonium xylene-sulfonate",
+
+  "ethyl peg-15 cocamine sulfate",
+
+  "sodium xylenesulfonate",
+  "sodium xylene-sulfonate",
+
+  "tea-dodecylbenzenesulfonate",
+  "tea dodecylbenzenesulfonate",
+
+]
+
+const caution = [
+
+  "olefin sulfonate",
+  "oliefin sulfonate",
+
+  "sodium c14-16 olefin sulfonate", 
+
+  "sodium c14-15 olefin sulfonate", 
+
+  "sodium c12-14 olefin sulfonate",
+
+  "sodium c14-26 olefin sulfonate",
+
+  "sodium c 14-18 olefin sulfonate",
+
+  "sodium c 16-18 olefin sulfonate",
+
+  "sodium cocoyl sarcosinate",
+  "sodium lauroyl sarcosinate",
+  "sodium lauryl sarcosinate",
+  "sodium lauroyl sarcosine",
+
+  "sodium lauryl sulfoacetate",
+  "sodium cocoyl glutamate",
+  "sodium lauroyl methyl isethionate",
+
+  "sodium lauryl methyl isothionate",
+  "sodium lauroyl methyl lsethionate",
+  "sodium lauroylmethyl isethionate",
+
+  "dioctyl sodium sulfosuccinate",
+
+  "disodium cocoyl glutamate",
+  "sodium myristoyl sarcosinate"
+]
+
+const good = [
+  "disodium laureth sulfosuccinate",
+  "disodium laureth succinate",
+  "sodium lauryl glucose carboxylate",
+  "sodium methyl cocoyl taurate",
+  "sodium lauroyl glutamate",
+  //poor evidence
+  "ammonium cocoyl isethionate",
+  "sodium cocoyl isethionate",
+  "coco betaine",
+  "coco betaine",
+  "cocamidopropyl betaine",
+  "disodium cocoamphodiacetate",
+  "cocamidopropyl hydroxysultaine",
+  "lauryl hydroxysultaine",
+  "sodium cocoamphoacetate",
+  "sodium lauroamphoacetate",
+  "coco glucoside",
+  "capryl glucoside",
+  "caprylyl glucoside",
+  "decyl glucoside",
+  "lauryl glucoside",
+  "decyl polyglucose",
+  "disodium cocoamphodipropionate",
+  "babassuamidopropyl betaine",
+  //need more research
+  "sodium laurylglucosides hydroxypropylsulfonate",
+  //need more research- not a detergent need to filter
+  "sodium lauroyl lactylate",
+  "sodium lauroyl hydrolyzed silk",
+  "sodium methyl 2-sulfolaurate",
+  "disodium 2-sulfolaurate",
+  "sodium lauroyl oat amino acids",
+  "disodium lauryl sulfosuccinate"
+]
+
+// Possibly bad or caution
+const partials = [
+//"ammonium lauryl sulfate"
+  "ammonium lauryl",
+// "ammonium lauryl sulfate", TEA lauryl sulfate, sodium lauryl sulfate
+  "lauryl sulfate",
+  "lauryl sulphate",
+//"sodium cetearyl sulfate"
+  "cetearyl sulfate",
+  "cetearyl sulphate",
+
+//sodium cocosulfate
+  "cocosulfate",
+  "coco-sulfate",
+  "coco sulfate",
+  "cocoyl sulfate",
+  "cocosulphate",
+  "coco-sulphate",
+  "coco sulphate",
+  "cocoyl sulphate",
+  "coceth sulfate",
+  "coceth sulphate",
+
+//ammonium Laureth Sulfate, sodium Laureth Sulfate
+  "laureth sulfate",
+  "laureth sulphate",
+
+//ammonium Laureth Sulfate,
+  "ammonium laureth",
+// sarcosinates
+  "sarcosinate",
+//sodium lauryl sulfate, sodium lauryl sulfoacetate
+  "sodium lauryl",
+//"sodium myreth sulfate"
+  "sodium myreth",
+  "myreth sulfate",
+  "myreth sulphate",
+
+ // "sodium lauroyl methyl isethionate"
+  "sodium lauroyl",
+ // "sodium laureth sulfate
+  "sodium laureth",
+//"ammonium laureth sulfate", "sodium laureth sulfate",
+  "laureth sulfate", 
+  "laureth sulphate", 
+
+// "ammonium lauryl sulfate",
+  "ammonium lauryl",
+//ammonium xylenesulfonate/ AMMONIUM XYLENE-SULFONATe
+  "ammonium xylenesulfonate",
+  "ammonium xylene-sulfonate",
+  // "disodium cocoyl glutamate"
+  "cocoyl glutamate",
+  //Sodium polystyrene sulfate
+  "polystyrene sulfate",
+  "polystyrene sulphate",
+  //sodium c12-18 alkyl sulfate
+  "alkyl sulfate",
+  "alkyl sulphate"
+
+]
+
+
+var soaps = [
+  "sodium palm",
+  "saponified",
+  "saponification",
+  "soap",
+  "sodium carboxylate",
+  "saponifying",
+  "potassium hydroxide"
+];
+
+var witchHazel = [
+  "witch",
+  "hamamelis",
+  "hamamellis",
+  "hazel"
+];
+
+ let unknown = [
+  "cone",
+  "dimethicon",
+  "silane",
+  "siloxane",
+  "dimethcione",
+  "botanisil",
+  "silicon",
+  "silylate",
+  "silsesquioxane",
+  "siloxysilicate",
+  "microsil"
+  ];
+
+let good =  [
+  "peg",
+  "ppg",
+  "pg-"
+];
+
+const not = [
+  "saccharomycessilicon ferment",
+  "silicon ferment"
+]
+
+ let unknown = [
+  "wax",
+  "cire",
+  "cera",
+  "paraffin",
+  "lanolin",
+  "mineral oil",
+  "petrolatum",
+  "isohexadecane",
+  "isohexanedecane",
+  "isododecane",
+  "dodecene",
+  "dodecane",
+  "isohexad",
+  "shellac"
+]
+
+let bad = [
+  "bees wax",
+  "beeswax",
+  "candelia wax",
+  "cire dabeille",
+  "cera alba",
+  "microcrystalline wax" ,
+  "myrica pubescens fruit wax",
+  "synthetic beeswax",
+  "euphorbia cerifera (candelilla) wax",
+  "stearoxytrimethyl silane and stearyl alcohol (silky wax)",
+  "cera alba (beeswax)",
+  "microcrystalline wax (cera microcristallina)"
+];
+
+
+let good = [
+  "peg-8 beeswax",
+  "emulsifying wax",
+  "emulsifying wax nf",
+  "peg 8 beeswax",
+  "peg-75 lanolin"
+];
+
+let not = [
+  "lonincera",
+  "lonicera",
+  "acetylated lanolin alcohol",
+  "lanolin alcohol",
+  "ceramide ng",
+  "ceramides",
+  "ceramide"
+]
+
+
+amodimethicone
+aminopropyl triethoxysilane
+behenoxy dimethicone cetearyl methicone
+bis-amino PEG aminoethil pg-propyl dimethicone
+bis-amino PPG-41/3 aminoethil pg-propyl dimethicone
+bis-amino 3 aminoethil pg-propyl dimethicone
+bis-aminopropyl dimethicone
+bis-cetearyl amodimethicone
+bis-phenylpropyl dimethicone
+bis-hydroxy amodimethicone
+methoxy amodimethicone
+cetyl dimethicone
+cetyl peg butyl ether dimethicone
+cetyl ppg-15 butyl ether dimethicone
+cetyl 15 butyl ether dimethicone
+cyclomethicone
+cyclopentasiloxane
+cyclopentasiloxane and c30-45 alkyl cetearyl dimethicone crosspolymer cyclohexasiloxane
+dimethicone crosspolymer
+vinyldimethicone crosspolymer
+dimethicone
+divynildimethicone copolymer
+dimethicone copolymer
+dimethiconol
+di-isotearoyl trimethylolpropane siloxy silicate
+diphenyl dimethicone
+disiloxane
+trimethylsiloxysilicate
+pca dimethicone
+phenyl trimethicone
+phenylpropyldimethylsiloxysilicate
+polysilicone-18 cetyl phosphate
+silicone quaternium-16
+silicone quaternium-18
+silicone quaternium-22
+silicone resin spheres
+simethicone stearoxy dimethicone
+simethicone stearyl dimethicone
+trimethyl silylamodimethicone
+trimethylsiloxyamodimethicone
+trimethylsiloxysilicate
+trisiloxane
+hexamethyldisiloxane

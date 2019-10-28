@@ -1,0 +1,10 @@
+.HomeTitle {
+    background-color: #94618e;
+    color: #f8eee7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.HomeTitle span{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
