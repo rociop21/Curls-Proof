@@ -13,6 +13,7 @@ const Toolbar = (props) => (
         <Nav className="mr-auto">
             <Link to="/"><Nav className={'NavLink hvr-overline-from-left'} >Home</Nav></Link>
             <Link to="/bot"><Nav className={'NavLink hvr-overline-from-left'} >Bot</Nav></Link>
+            <Link to="/recipes"><Nav className={'NavLink hvr-overline-from-left'} >Recipes</Nav></Link>
         </Nav>
     </Navbar.Collapse>
     </Navbar>

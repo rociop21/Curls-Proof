@@ -1,0 +1,22 @@
+.Analyzer {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 45px;
+}
+
+.Analyzer h1 {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.Analyzer h3 {
+    padding-bottom: 25px;
+}
+.jumbotron {
+    padding-bottom: 2rem!important;
+    padding-top: 2rem!important;
+}
+
+.AnalyzerMain span{
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+}

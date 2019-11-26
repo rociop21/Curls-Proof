@@ -1,0 +1,14 @@
+.card-header {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-title {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400!important;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+}

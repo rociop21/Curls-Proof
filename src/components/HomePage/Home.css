@@ -1,10 +1,151 @@
-.HomeTitle {
-    background-color: #94618e;
-    color: #f8eee7;
+.HomePage {
+    color: black;
     font-family: 'Roboto', sans-serif;
 }
 
-.HomeTitle span{
+.HomePage span{
     font-family: 'Satisfy', cursive;
     font-size: 25px;
 }
+
+
+.HomeMain {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.HomeMain img {
+    height: 560px;
+}
+
+.HomeTitle h1{
+    opacity: 0.8;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 100px;
+    font-size: 70px;
+}
+.HomeTitle h4{
+    opacity: 0.8;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 100px;
+    font-size: 30px;
+}
+.HomeTitle span{
+    padding-right: 70px;
+}
+
+@media (max-width: 905px) {
+    .HomeTitle span{
+        padding-right: 0;
+    }
+    .HomeMain img {
+        height: 350px;
+    }
+}
+@media (max-width: 750px) {
+    .HomeTitle h1{
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    .HomeTitle h4{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 15110px) and (min-width: 1670px) {
+    .HomeTitle h1{
+        margin-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 100px;
+    }
+    .HomeTitle h4{
+        margin-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 100px;
+    }
+    .HomeMain img {
+        height: 450px!important;
+        padding-left: 150px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 15110px) {
+    .HomeMain img {
+        height: 350px;
+    }
+    .HomeTitle h1{
+        padding-left: 70px!important;
+    }
+    .HomeTitle h4{
+        padding-left: 70px!important;
+        padding-bottom: 40px!important;
+    }
+}
+
+.HomeAnalyze {
+    margin-top: 35px;
+}
+.HomeAnalyze h4 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.HomeAnalyze button {
+    background-color: #2F3475;
+    border-color: #2F3475;
+    color: #fff;
+}
+.HomeAnalyze .card-body {
+    background-color: rgba(152, 215, 227, 0.3);
+    border: 1px solid rgba(152, 215, 227, 0.3);
+}
+
+
+.HomeNews {
+    margin-top: 35px;
+}
+.HomeNews h4 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.HomeNews button {
+    background-color: #2F3475;
+    border-color: #2F3475;
+    color: #fff;
+}
+.HomeNews .card-body {
+    background-color: rgba(152, 215, 227, 0.5);
+    border: 1px solid rgba(152, 215, 227, 0.5);
+}
+
+
+
+.HomeRecipes {
+    margin-top: 35px;
+}
+.HomeRecipes h4 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.HomeRecipes button{
+    background-color: #2F3475;
+    border-color: #2F3475;
+    color: #fff;
+}
+.HomeRecipes .card-body {
+    background-color: rgba(152, 215, 227, 0.5);
+    border: 1px solid rgba(152, 215, 227, 0.5);
+}
+
