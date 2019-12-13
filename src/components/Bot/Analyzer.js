@@ -1,23 +1,20 @@
 import React from 'react';
+
+import Alert from 'react-bootstrap/Alert';
+
 import {alcohols, sulfates, soaps, silicones, wax, witchHazel} from './../../ingredientsData/BadIngredients';
 
 const Analyzer = (props) => {
-
-
     const toAnalyze = props.ingredients;
 
     let resultAlcohols = toAnalyze.filter(el => alcohols.includes(el));
-
     let resultSulfates = toAnalyze.filter(el => sulfates.includes(el));
-
     let resultSoaps = toAnalyze.filter(el => soaps.includes(el));
-
     let resultSilicones = toAnalyze.filter(el => silicones.includes(el));
-
     let resultWax = toAnalyze.filter(el => wax.includes(el));
-
     let resultWitchHazel = toAnalyze.filter(el => witchHazel.includes(el));
 
+    let alertVariant = "success"
     let resultText = null;
     let resultAlcoholsText = null;
     let resultSulfatesText = null;
@@ -25,13 +22,17 @@ const Analyzer = (props) => {
     let resultSiliconesText = null;
     let resultWaxText = null;
     let resultWitchHazelText = null;
+    let adviceText = null;
 
     if (resultAlcohols.length>0 || resultSulfates.length>0 || resultSoaps.length>0 || resultSilicones.length>0 ||resultWax.length>0 || resultWitchHazel.length>0) {
-        resultText = <p>The analyzed product is not curly girl aproved:</p>
+        resultText = <Alert.Heading>The analyzed product is not curly girl aproved:</Alert.Heading>
+        alertVariant = "danger"
     };
 
     if (props.ingredients && resultAlcohols.length==0 && resultSulfates.length==0 && resultSoaps.length==0 && resultSilicones.length==0 && resultWax.length==0 && resultWitchHazel.length==0) {
-        resultText = <p>The analyzed product seems to be curly girl aproved.</p>
+        resultText = <Alert.Heading>The analyzed product seems to be curly girl aproved.</Alert.Heading>
+        adviceText = <p>It may contain any ingredient not CG aproved if it was missspelled.</p>
+        alertVariant = "success"
     };
 
     if (resultAlcohols.length>0) {
@@ -65,15 +66,17 @@ const Analyzer = (props) => {
     };
 
     return (
-        <div>
+        <Alert variant={alertVariant}>
             {resultText}
+            <hr />
+            {adviceText}
             {resultAlcoholsText}
             {resultSulfatesText}
             {resultSoapsText}
             {resultSiliconesText}
             {resultWaxText}
             {resultWitchHazelText}
-        </div>
+        </Alert>
         
     );
 }

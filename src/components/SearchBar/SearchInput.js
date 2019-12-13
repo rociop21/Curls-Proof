@@ -1,16 +1,26 @@
 import React from 'react';
+import './SearchBar.css'
+
+import Form from 'react-bootstrap/Form';
+import FormControl from 'react-bootstrap/FormControl';
+import Button from 'react-bootstrap/Button'
 
 
 const SearchInput = (props) => {
 
     return (
-        <div>
-            <input
+        <Form inline className="SearchForm">
+            <FormControl 
+                type="text" 
+                placeholder="Search" 
+                className="mr-sm-2" 
                 value={props.value} 
-                onChange={props.changed}
-                label="Seach" />
-            <button onClick={props.clicked} disabled={props.disabled}>Search</button>
-        </div>
+                onChange={props.changed} />
+            <Button 
+                variant="outline-success" 
+                onClick={props.clicked} 
+                disabled={props.disabled} >Search</Button>
+        </Form>
     );
 }
 

@@ -53,7 +53,7 @@ class recipesMain extends Component {
         );
 
         return (
-            <Container fluid={true}>
+            <Container fluid={true} className="RecipesContainer">
                 <Row>
                     <SearchInput value={this.state.value} changed={this.InputChangedHandler} clicked={this.SubmitHandler} disabled={this.state.disabled} />
                     <Col md={{ span: 10, offset: 1 }}>
