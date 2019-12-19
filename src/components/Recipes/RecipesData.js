@@ -1,6 +1,7 @@
 export const recipesData = {
     recipe1: {
         number: '1',
+        type: 'hydrating',
         title: 'Anti-frizz mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -12,6 +13,7 @@ export const recipesData = {
     },
     recipe2: {
         number: '2',
+        type: 'nutritive',
         title: 'Mayonese mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -24,6 +26,7 @@ export const recipesData = {
     },
     recipe3: {
         number: '3',
+        type: 'hydrating',
         title: 'MHydrating shock',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -36,6 +39,7 @@ export const recipesData = {
     },
     recipe4: {
         number: '4',
+        type: 'hydrating',
         title: 'Cornstarch mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -47,6 +51,7 @@ export const recipesData = {
     },
     recipe5: {
         number: '5',
+        type: 'reconstructive',
         title: 'Reconstructive mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -58,6 +63,7 @@ export const recipesData = {
     },
     recipe6: {
         number: '6',
+        type: 'acid',
         title: 'Acid mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -68,6 +74,7 @@ export const recipesData = {
     },
     recipe7: {
         number: '7',
+        type: 'acid',
         title: 'Acid mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -78,6 +85,7 @@ export const recipesData = {
     },
     recipe8: {
         number: '8',
+        type: 'nutritive',
         title: 'Coconut milk mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -89,6 +97,7 @@ export const recipesData = {
     },
     recipe9: {
         number: '9',
+        type: 'nutritive',
         title: 'Banana mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -99,6 +108,7 @@ export const recipesData = {
     },
     recipe10: {
         number: '10',
+        type: 'hydrating',
         title: 'Aloe Vera mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -109,6 +119,7 @@ export const recipesData = {
     },
     recipe11: {
         number: '11',
+        type: 'hydrating',
         title: 'Glycerine mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -124,6 +135,7 @@ export const recipesData = {
     },
     recipe12: {
         number: '12',
+        type: 'hydrating',
         title: 'Constarch mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -135,6 +147,7 @@ export const recipesData = {
     },
     recipe13: {
         number: '13',
+        type: 'nutritive',
         title: 'Mango mask',
         description: 'Aca va la descripcion',
         ingredients: [
@@ -150,6 +163,7 @@ export const recipesData = {
     },
     recipe14: {
         number: '14',
+        type: 'nutritive',
         title: 'Banana mask',
         description: 'Aca va la descripcion',
         ingredients: [

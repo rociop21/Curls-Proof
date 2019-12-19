@@ -45,7 +45,7 @@ const SearchBar = (props) => {
 
     return (
         <div>
-            {resultDisplay}
+            {resultDisplay.length>1 ? resultDisplay : <p className="SearchResultP">No results found.</p>}
         </div>
     );
 }

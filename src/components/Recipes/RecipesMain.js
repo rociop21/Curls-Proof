@@ -14,6 +14,7 @@ class recipesMain extends Component {
     state = {
         value: ' ',
         disabled: true,
+        searched:false,
         search: null,
     };
 
@@ -26,8 +27,10 @@ class recipesMain extends Component {
 
     SubmitHandler = (event) => {
         event.preventDefault();
+        this.setState({searched: true});
         let search = this.state.value.trim().toLowerCase().split(", ");
         this.setState({search: search});
+        console.log(this.state.search)
     };
 
     render () {
@@ -39,6 +42,7 @@ class recipesMain extends Component {
                 number: recipesData[key].number,
                 title: recipesData[key].title,
                 description: recipesData[key].description,
+                type: recipesData[key].type
         });
         };
 
@@ -48,7 +52,8 @@ class recipesMain extends Component {
                     key={Element.id} 
                     number={Element.number}
                     title={Element.title}
-                    description={Element.description} />
+                    description={Element.description} 
+                    type={Element.type} />
             )
         );
 
