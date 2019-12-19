@@ -42,30 +42,17 @@ const Home = (props) => (
                 </Card>
             </Col>
             <Col lg={true} >
-                <Card bg="light" style={{ width: '100%' }} className={'HomeNews'} >
-                <Card.Body>
-                    <Card.Title>Kepp up with the latest news</Card.Title>
-                    <Card.Text>
-                        Read all the important and latest news in our blog.
-                    </Card.Text>
-                    <Button variant="primary">Primary</Button>
+                <Card bg="light" style={{ width: '100%' }} className={'HomeRecipes'} > 
+                    <Card.Body>
+                        <Card.Title>Handle all you recipies in one place</Card.Title>
+                        <Card.Text>
+                            Find recipes, save them, like them (or not).
+                        </Card.Text>
+                        <Button variant="primary">Primary</Button>
                     </Card.Body>
                 </Card>
             </Col>
         </Row> 
-        <Row>
-            <Col lg={true} >
-                <Card bg="light" style={{ width: '100%' }} className={'HomeRecipes'} > 
-                <Card.Body>
-                    <Card.Title>Handle all you recipies in one place</Card.Title>
-                    <Card.Text>
-                        Find recipes, save them, like them (or not).
-                    </Card.Text>
-                    <Button variant="primary">Primary</Button>
-                    </Card.Body>
-                </Card>
-            </Col>
-        </Row>  
     </Container>
     
 )

@@ -14,7 +14,6 @@ class recipesMain extends Component {
     state = {
         value: ' ',
         disabled: true,
-        searched:false,
         search: null,
     };
 
@@ -27,7 +26,6 @@ class recipesMain extends Component {
 
     SubmitHandler = (event) => {
         event.preventDefault();
-        this.setState({searched: true});
         let search = this.state.value.trim().toLowerCase().split(", ");
         this.setState({search: search});
         console.log(this.state.search)

@@ -98,10 +98,6 @@
 .HomeAnalyze {
     margin-top: 35px;
 }
-.HomeAnalyze h4 {
-    margin-bottom: 20px;
-    font-size: 30px;
-}
 .HomeAnalyze button {
     background-color: #2F3475;
     border-color: #2F3475;
@@ -111,33 +107,15 @@
     background-color: rgba(152, 215, 227, 0.3);
     border: 1px solid rgba(152, 215, 227, 0.3);
 }
-
-
-.HomeNews {
-    margin-top: 35px;
-}
-.HomeNews h4 {
-    margin-bottom: 20px;
+.HomeAnalyze .card-body .h5{
     font-size: 30px;
-}
-.HomeNews button {
-    background-color: #2F3475;
-    border-color: #2F3475;
-    color: #fff;
-}
-.HomeNews .card-body {
-    background-color: rgba(152, 215, 227, 0.5);
-    border: 1px solid rgba(152, 215, 227, 0.5);
+    margin-bottom: 30px;
 }
 
 
 
 .HomeRecipes {
     margin-top: 35px;
-}
-.HomeRecipes h4 {
-    margin-bottom: 20px;
-    font-size: 30px;
 }
 .HomeRecipes button{
     background-color: #2F3475;
@@ -147,5 +125,9 @@
 .HomeRecipes .card-body {
     background-color: rgba(152, 215, 227, 0.5);
     border: 1px solid rgba(152, 215, 227, 0.5);
+}
+.HomeRecipes .card-body .h5 {
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
