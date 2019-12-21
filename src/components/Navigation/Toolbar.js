@@ -12,8 +12,9 @@ const Toolbar = (props) => (
     <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
             <Link to="/"><Nav className={'NavLink hvr-overline-from-left'} >Home</Nav></Link>
-            <Link to="/bot"><Nav className={'NavLink hvr-overline-from-left'} >Bot</Nav></Link>
-            <Link to="/recipes"><Nav className={'NavLink hvr-overline-from-left'} >Recipes</Nav></Link>
+            <Link to="/bot"><Nav className={'NavLink hvr-overline-from-left'}>Bot</Nav></Link>
+            <Link to="/recipes"><Nav className={'NavLink hvr-overline-from-left'}>Recipes</Nav></Link>
+            <Link to="/about"><Nav className={'NavLink hvr-overline-from-left'}>About</Nav></Link>
         </Nav>
     </Navbar.Collapse>
     </Navbar>

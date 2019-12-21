@@ -3,7 +3,7 @@ export const recipesData = {
         number: '1',
         type: 'hydrating',
         title: 'Anti-frizz mask',
-        description: 'Aca va la descripcion',
+        description: 'Hydrating mask specially to reduce frizz using physiological solution.',
         ingredients: [
             '2 teaspoon of physiological solution',
             '2 teaspoon of sugar',
@@ -15,7 +15,7 @@ export const recipesData = {
         number: '2',
         type: 'nutritive',
         title: 'Mayonese mask',
-        description: 'Aca va la descripcion',
+        description: 'Nutritive mask with dairy products.',
         ingredients: [
             '2 tablespoon of mayonese',
             '2 tablespoon of yogurt',
@@ -28,7 +28,7 @@ export const recipesData = {
         number: '3',
         type: 'hydrating',
         title: 'MHydrating shock',
-        description: 'Aca va la descripcion',
+        description: 'This mask is very hydrating and reduces some frizz and gives shine.',
         ingredients: [
             '2 teaspoon of physiological solution',
             '1 teaspoon of sugar',
@@ -41,7 +41,7 @@ export const recipesData = {
         number: '4',
         type: 'hydrating',
         title: 'Cornstarch mask',
-        description: 'Aca va la descripcion',
+        description: 'Hidrating mask that reduces frizz with the use of physiological solution',
         ingredients: [
             '2 teaspoon of physiological solution',
             '1 tablespoon of cornstarch',
@@ -53,7 +53,7 @@ export const recipesData = {
         number: '5',
         type: 'reconstructive',
         title: 'Reconstructive mask',
-        description: 'Aca va la descripcion',
+        description: 'Reconstructive mask for those hairs in need of protein, with gelatine.',
         ingredients: [
             '1 tablespoon of unflavored gelatin',
             '1 tablespoon of apple cider vinegar',
@@ -65,7 +65,7 @@ export const recipesData = {
         number: '6',
         type: 'acid',
         title: 'Acid mask',
-        description: 'Aca va la descripcion',
+        description: 'Homemade acid mask, closes the cuticles and gives shine.',
         ingredients: [
             '1 tablespoon of lemon juice',
             '2 tablespoon of nutritive mask'       
@@ -76,7 +76,7 @@ export const recipesData = {
         number: '7',
         type: 'acid',
         title: 'Acid mask',
-        description: 'Aca va la descripcion',
+        description: 'Homemade acid mask, closes the cuticles and gives shine.',
         ingredients: [
             '2 tablespoon of apple cider vinegar',
             '2 tablespoon of hydrating mask or conditioner'      
@@ -87,7 +87,7 @@ export const recipesData = {
         number: '8',
         type: 'nutritive',
         title: 'Coconut milk mask',
-        description: 'Aca va la descripcion',
+        description: 'Hydrating mask with a touch of protein to help those curls clump.',
         ingredients: [
             '1 tablespoon of coconut milk',
             '1 tablespoon of olive oil',
@@ -99,7 +99,7 @@ export const recipesData = {
         number: '9',
         type: 'nutritive',
         title: 'Banana mask',
-        description: 'Aca va la descripcion',
+        description: 'Simple nutritive mask.',
         ingredients: [
             '1 banana',
             '1 tablespoon of olive oil'       
@@ -110,7 +110,7 @@ export const recipesData = {
         number: '10',
         type: 'hydrating',
         title: 'Aloe Vera mask',
-        description: 'Aca va la descripcion',
+        description: 'A hydrating mask very cheap and simple, just a few minutes to make.',
         ingredients: [
             'Water',
             'Aloe vera'           
@@ -121,7 +121,7 @@ export const recipesData = {
         number: '11',
         type: 'hydrating',
         title: 'Glycerine mask',
-        description: 'Aca va la descripcion',
+        description: 'Recomendation: watch the humidity, as the glycerine in this mask can dry your hair.',
         ingredients: [
             '1 tablespoon of glycerine',
             '2 tablespoon of hydrating mask',
@@ -137,7 +137,7 @@ export const recipesData = {
         number: '12',
         type: 'hydrating',
         title: 'Constarch mask',
-        description: 'Aca va la descripcion',
+        description: 'A hydrating mask that gives you shine.',
         ingredients: [
             '1 tablespoon of cornstarch',
             '1 cup of milk or water',
@@ -149,7 +149,7 @@ export const recipesData = {
         number: '13',
         type: 'nutritive',
         title: 'Mango mask',
-        description: 'Aca va la descripcion',
+        description: 'Nutritive mask with a mix of oils.',
         ingredients: [
             '1 mango',
             '2 teaspoon of olive oil',
@@ -165,7 +165,7 @@ export const recipesData = {
         number: '14',
         type: 'nutritive',
         title: 'Banana mask',
-        description: 'Aca va la descripcion',
+        description: 'Nutritive mask that makes your curls clump and gives you shine.',
         ingredients: [
             '1 rip banana',
             '1 egg',

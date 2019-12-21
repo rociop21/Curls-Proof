@@ -1,0 +1,26 @@
+.AboutCard {
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.AboutTitle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.AboutImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.AboutCard h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.AboutCard h4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
