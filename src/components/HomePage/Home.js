@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter as Router, Link} from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -32,12 +33,11 @@ const Home = (props) => (
                     <Card.Title>Analyze your ingredients</Card.Title>
                     <Card.Text>
                         A growing number of people, regardless of their pattern, are interested in taking care of their hair; 
-                        but this can be a complicated task due to the amount of information available from different sources with small variations in their statements.
-                        Whether you're looking to take care of your hair by rigorously following the curly girl's method, 
-                        or you are looking to reduce the consumption of harmful products without following the method to the letter, 
-                        or just avoiding certain products, it is important that you know the ingredients of each of them to be able to decide correctly.
+                        but this can be a complicated task due to the amount of information available from different sources with 
+                        small variations in their statements.
+                        Our goal is to help you determine if a products contains any harmful ingredients by comparing them to our data base.
                     </Card.Text>
-                    <Button variant="primary">Primary</Button>
+                    <Link to="/bot"><Button variant="primary">Learn more</Button></Link>
                     </Card.Body>
                 </Card>
             </Col>
@@ -46,9 +46,10 @@ const Home = (props) => (
                     <Card.Body>
                         <Card.Title>Handle all you recipies in one place</Card.Title>
                         <Card.Text>
-                            Find recipes, save them, like them (or not).
+                            Weather you don't want to spend too much buying products for your hair or just prefer using more natural ingredients, 
+                            we can help you to achive that by giving you a place to handle all your recipes and search for new ones.
                         </Card.Text>
-                        <Button variant="primary">Primary</Button>
+                        <Link to="/recipes"><Button variant="primary">Learn more</Button></Link>
                     </Card.Body>
                 </Card>
             </Col>

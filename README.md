@@ -1,4 +1,4 @@
-## Curls-Proof
+# Curls-Proof
 
 ## Description
 
