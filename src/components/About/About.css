@@ -1,11 +1,12 @@
-.AboutCard {
-    margin-left: 5%;
+.AboutMe {
+    margin-left: 80px;
+    margin-right: 30px;
     margin-top: 50px;
 }
 
 .AboutTitle {
     text-align: center;
-    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .AboutImage {
@@ -13,14 +14,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+    margin-top: 70px;
 }
 
-.AboutCard h2 {
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.AboutCard h4 {
-    margin-bottom: 20px;
-    text-align: center;
-}

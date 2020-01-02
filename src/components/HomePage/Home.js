@@ -48,6 +48,8 @@ const Home = (props) => (
                         <Card.Text>
                             Weather you don't want to spend too much buying products for your hair or just prefer using more natural ingredients, 
                             we can help you to achive that by giving you a place to handle all your recipes and search for new ones.
+                            <br/>
+                            <br/>
                         </Card.Text>
                         <Link to="/recipes"><Button variant="primary">Learn more</Button></Link>
                     </Card.Body>
