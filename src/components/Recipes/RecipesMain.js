@@ -1,18 +1,18 @@
-import React, {Component} from 'react';
-import './Recipes.css'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React, {Component} from "react";
+import "./Recipes.css"
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-import Recip from './Recip'
-import recipesData from './RecipesData'
-import SearchInput from './../SearchBar/SearchInput'
-import SearchBar from './../SearchBar/SearchBar'
+import RecipDescription from "./RecipDescription"
+import recipesData from "./RecipesData"
+import SearchInput from "./../SearchBar/SearchInput"
+import SearchBar from "./../SearchBar/SearchBar"
 
 class recipesMain extends Component {
     
     state = {
-        value: ' ',
+        value: " ",
         disabled: true,
         search: null,
     };
@@ -28,7 +28,6 @@ class recipesMain extends Component {
         event.preventDefault();
         let search = this.state.value.trim().toLowerCase().split(", ");
         this.setState({search: search});
-        console.log(this.state.search)
     };
 
     render () {
@@ -46,7 +45,7 @@ class recipesMain extends Component {
 
         let recipesList = (
             recipesElements.map(Element =>
-                <Recip 
+                <RecipDescription
                     key={Element.id} 
                     number={Element.number}
                     title={Element.title}
