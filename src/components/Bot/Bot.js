@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-
+import { withTranslation } from 'react-i18next';
 
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
@@ -34,17 +34,18 @@ class Bot extends Component {
     };
 
     render() {
+        const { t } = this.props;
 
         return (
             <Container fluid={true} className="Analyzer">
                 <Row>
                     <Col md={{ span: 8, offset: 2 }} className="AnalyzerMain">
-                        <h1>Curls-Proof Ingredients Analyzer</h1>
-                        <h3>In <span>Curls-Proof</span> we aim to make it easier for you to decide on each product so you can concentrate on taking good care of your hair.</h3>
+                        <h1>{t("bot.title")}</h1>
+                        <h3>{t("bot.subtitle1")}<span>Curls-Proof</span> {t("bot.subtitle2")}</h3>
                         <Jumbotron className="AnalyzerInput">
-                            <h4>Enter the ingredients of the product you want to test, separate ingredients with a comma and click "Analyze!" to see if it contains any harm ingredient.</h4>
-                            <UserInput changed={this.InputChangedHandler} value={this.state.value} label={<p>Since typing the ingredients yourself may result in innacuracies, we recommend you find the list of ingredients on the brand"s website and paste it here.</p>}></UserInput>
-                            <Button variant="primary" onClick={this.SubmitHandler} disabled={this.state.disabled}>Analyze!</Button>
+                            <h4>{t("bot.instructions")}</h4>
+                            <UserInput changed={this.InputChangedHandler} value={this.state.value} label={<p>{t("bot.advice")}</p>}></UserInput>
+                            <Button variant="primary" onClick={this.SubmitHandler} disabled={this.state.disabled}>{t("bot.button")}</Button>
                             {this.state.ingredients && <Analyzer ingredients={this.state.ingredients} />}
                         </Jumbotron>
                     </Col>
@@ -54,4 +55,4 @@ class Bot extends Component {
     };
 }
 
-export default Bot;
+export default withTranslation('common')(Bot);

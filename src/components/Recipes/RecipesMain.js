@@ -4,8 +4,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import RecipDescription from "./RecipDescription"
-import recipesData from "./RecipesData"
+import RecipDescription from "./RecipCardPartial"
+import recipesData from "./RecipesDataEN"
 import SearchInput from "./../SearchBar/SearchInput"
 import SearchBar from "./../SearchBar/SearchBar"
 

@@ -1,10 +1,13 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import Alert from "react-bootstrap/Alert";
 
 import {alcohols, sulfates, soaps, silicones, wax, witchHazel} from "./../../ingredientsData/BadIngredients";
 
 const Analyzer = (props) => {
+	const { t } = useTranslation("common");
+
 	const toAnalyze = props.ingredients;
 
 	let resultAlcohols = toAnalyze.filter(el => alcohols.includes(el));
@@ -25,44 +28,44 @@ const Analyzer = (props) => {
 	let adviceText = null;
 
 	if (resultAlcohols.length>0 || resultSulfates.length>0 || resultSoaps.length>0 || resultSilicones.length>0 ||resultWax.length>0 || resultWitchHazel.length>0) {
-		resultText = <Alert.Heading>The analyzed product is not curly girl aproved:</Alert.Heading>;
+		resultText = <Alert.Heading>{t("analyzer.notaproved")}</Alert.Heading>;
 		alertVariant = "danger";
 	}
 
 	if (props.ingredients && resultAlcohols.length==0 && resultSulfates.length==0 && resultSoaps.length==0 && resultSilicones.length==0 && resultWax.length==0 && resultWitchHazel.length==0) {
-		resultText = <Alert.Heading>The analyzed product seems to be curly girl aproved.</Alert.Heading>;
-		adviceText = <p>It may contain any ingredient not CG aproved if it was missspelled.</p>;
+		resultText = <Alert.Heading>{t("analyzer.aproved")}</Alert.Heading>;
+		adviceText = <p>{t("analyzer.aprovedalert")}</p>;
 		alertVariant = "success";
 	}
 
 	if (resultAlcohols.length>0) {
 		let resultAlcoholsString = resultAlcohols.join(", ");
-		resultAlcoholsText = <p>It contains the folowing alcohols in it"s formula: {resultAlcoholsString}.</p>;
+		resultAlcoholsText = <p>{t("analyzer.alcoholsalert")}{resultAlcoholsString}.</p>;
 	}
 
 	if (resultSulfates.length>0) {
 		let resultSulfatesString = resultSulfates.join(", ");
-		resultSulfatesText = <p>It contains the folowing sulfates in it"s formula: {resultSulfatesString}.</p>;
+		resultSulfatesText = <p>{t("analyzer.sulfatesalert")}{resultSulfatesString}.</p>;
 	}
 
 	if (resultSoaps.length>0) {
 		let resultSoapsString = resultSoaps.join(", ");
-		resultSoapsText = <p>It contains the folowing soaps in it"s formula: {resultSoapsString}.</p>;
+		resultSoapsText = <p>{t("analyzer.soapsalert")}{resultSoapsString}.</p>;
 	}
 
 	if (resultSilicones.length>0) {
 		let resultSiliconesString = resultSilicones.join(", ");
-		resultSiliconesText = <p>It contains the folowing silicones in it"s formula: {resultSiliconesString}.</p>;
+		resultSiliconesText = <p>{t("analyzer.siliconesalert")}{resultSiliconesString}.</p>;
 	}
 
 	if (resultWax.length>0) {
 		let resultWaxString = resultWax.join(", ", resultWax);
-		resultWaxText = <p>It contains the folowing waxes in it"s formula: {resultWaxString}.</p>;
+		resultWaxText = <p>{t("analyzer.waxesalert")}{resultWaxString}.</p>;
 	}
 
 	if (resultWitchHazel.length>0) {
 		let resultWitchHazelString = resultWitchHazel.join(", ");
-		resultWitchHazelText = <p>It contains the folowing ingredient in it"s formula: {resultWitchHazelString}.</p>;
+		resultWitchHazelText = <p>{t("analyzer.WitchHazelalert")}{resultWitchHazelString}.</p>;
 	}
 
 	return (

@@ -5,8 +5,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import RecipComplete from "./RecipComplete";
-import recipesData from "./RecipesData";
+import RecipComplete from "./RecipeCardComplete";
+import recipesData from "./RecipesDataEN";
 
 import "./Recipes.css";
 

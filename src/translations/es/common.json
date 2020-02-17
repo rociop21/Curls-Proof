@@ -1,0 +1,51 @@
+{
+    "home": {
+        "title1": "Perfect hair",
+        "title2": "made easy",
+        "intro": "Cuidar de tu cabello nunca fue tan facil.",
+        "analyzertitle": "Analiza ingredientes",
+        "analyzertext": "Un creciente numero de personas, ya sea que tengan rulos o no, estan interesadas en cuidar de su cabello; pero esto puede ser algo complicado dada la cantidad de informacion que hay disponible en internet, a menudo las diferentes fuentes de informacion tienen pequeñas variaciones en ellas. Nuestro objetivo es ayudarle a determinar si un producto puede contener algun ingrediente no recomendado o no comparandolo con nuestra base de datos.",
+        "recipestitle": "Todas tus recetas en un solo lugar.",
+        "recipestext": "Si no quieres pasar mucho tiempo comprando diferentes productos de cuidado capilar o simplemente prefieres usar ingredientes mas naturales, te podemos ayudar dandote un lugar para manejar todas tus recepas y buscar nuevas.",
+        "learnbutton": "Ver mas" 
+    },
+    "faq": {
+        "title": "Preguntas frecuentes",
+        "faq1": "¿Como funciona el analizador?",
+        "answer1": "Primero, necesita una lista de ingredientes, la cual le puedes mandar aqui. Luego, compara la lista que se le dio junto con la lista de ingredientes no aprovados para el metodo que tiene en su base de datos de forma de encontrar las coincidencias. Por ultimo, devuelve la lista de ingredientes con los que debes tener cuidado en dicho producto.",
+        "faq2": "¿Puede darme resultados erroneos?", 
+        "answer2": "Si, puede dar resultados errones en el caso de que los ingredientes esten mal escritos o su base de datos no este completamente actualizada. Por eso mismo, recomendamos que copies la lista de ingredientes desde la pagina web del manufacturador o de la tienda donde lo adquiriste. Si piensa que el analizador le ha dado un resultado erroneo, no dude en contactarme y proveerme la lista de ingredientes del producto para que vea si hay un error y lo arregle."
+    }, 
+    "bot": {
+        "title": "Analizador de ingredientes Curls-Proof",
+        "subtitle1": "En",
+        "subtitle2": "Nuestro objetivo es facilitarle la decision sobre cada producto, para que se pueda concentrar el cuidar de su cabello y pensar cual sera su siguiente mascarilla.",
+        "instructions": "Escriba los ingredientes del producto que quiere analizar, separe los ingredientes por comas y haga click en 'Analiza' para ver si el producto contiene algun ingrediente no recomendado.",
+        "advice": "Dado que escribir los ingredientes manualmente uno misno puede conllevar errores de escritura, recomendamos que busque la lista de ingrentes en la pagina web del manufactor o en la de su tienda y la pegue en el recuadro.",
+        "button": "Analiza!" 
+    },
+    "analyzer": {
+        "notaproved": "El producto analizado no es apto para el metodo de la chica rizada:",
+        "aproved": "El producto analizado parece ser apto para el metodo de la chica rizada.",
+        "aprovedalert": "Puede llegar a contener ingredientes no aptos para el metodo si no fueron escritos correctamente.",
+        "alcoholsalert": "Contiene los siguientes alcoholes en su formula: ",
+        "sulfatesalert": "Contiene los siguientes sulfatos en su formula: ",
+        "soapsalert": "Contiene los siguientes detergentes en su formula: ",
+        "siliconesalert": "Contiene las siguientes siliconas en su formula: ",
+        "waxesalert": "Contiene las siguientes ceras en su formula: ",
+        "WitchHazelalert": "Contiene los siguientes ingredientes en su formula: "
+
+    },
+    "about": {
+        "title": "Sobre mi",
+        "description": "I'm a curly girl enthusiast who's been doing the Curly Girl Method for about 3 years. I live in Argentina and this method isn't well-known and beauty company aren't used to making products using the CGM guidelines, so at first it was really hard for me to find the right products to stablish my routine.I've been learning web development (with JavaScript and React) for 9 months or so, and my idea of a sideproyect is something that has to be related to my interests, so it would give me a lot of joy to work on it, but at the same time I wanted to produce something useful that could help people or make thinks easier somehow; that's how I came with this website. Right now, it's still under construccion; but the mainly idea is to develop a website that can offer most of the things you need to get started with this method and build your own routine based on your hair needs.",
+        "contact": "Puedes contactarme mandando un email: rocio.pantalone@gmail.com"
+    },
+    "toolbar": {
+        "home": "Home",
+        "analyzer": "Analizador",
+        "recipes": "Recetas",
+        "faq": "FAQ",
+        "about": "Sobre mi"
+    }
+}

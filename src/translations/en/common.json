@@ -1,0 +1,51 @@
+{
+    "home": {
+        "title1": "Perfect hair",
+        "title2": "made easy",
+        "intro": "Taking good care of you hair have never been easier.",
+        "analyzertitle": "Analyze your ingredients",
+        "analyzertext": "A growing number of people, regardless of their pattern, are interested in taking care of their hair; but this can be a complicated task due to the amount of information available from different sources with small variations in their statements.Our goal is to help you determine if a products contains any harmful ingredients by comparing them to our data base.",
+        "recipestitle": "Handle all you recipies in one place",
+        "recipestext": "Weather you don't want to spend too much buying products for your hair or just prefer using more natural ingredients, we can help you to achive that by giving you a place to handle all your recipes and search for new ones.",
+        "learnbutton": "Learn more"
+    },
+    "faq": {
+        "title": "Frequently asked questions",
+        "faq1": "How does the analyzer work?",
+        "answer1": "First, it needs a list of ingredients to analyze, wich you can send him here. Then, it compares the list you provided with the list of harmful ingredients in its data base and finds the coincidenses. Then returns to you the list of ingredients you should be careful about of that given product.",
+        "faq2": "Can it give me wrong results?",
+        "answer2": "Yes, it can if ingredients are misspelled or if the list in its data base is not fully updated. Thats why we recommend you copy the list of ingredients from manufacturer's or a store website. And, if you think that the bot is giving you a wrong result, you can contact me with the list of ingredients and I will fix it."
+    },
+    "bot": {
+        "title": "Curls-Proof Ingredients Analyzer",
+        "subtitle1": "In",
+        "subtitle2": "we aim to make it easier for you to decide on each product so you can concentrate on taking good care of your hair.",
+        "instructions": "Enter the ingredients of the product you want to test, separate ingredients with a comma and click 'Analyze!' to see if it contains any harm ingredient.",
+        "advice": "Since typing the ingredients yourself may result in innacuracies, we recommend you find the list of ingredients on the brand's website and paste it here.",
+        "button": "Analyze!"
+    },
+    "analyzer": {
+        "notaproved": "The analyzed product is not curly girl aproved:",
+        "aproved": "The analyzed product seems to be curly girl aproved.",
+        "aprovedalert": "It may contain any ingredient not CG aproved if it was missspelled.",
+        "alcoholsalert": "It contains the folowing alcohols in it's formula: ",
+        "sulfatesalert": "It contains the folowing sulfates in it's formula: ",
+        "soapsalert": "It contains the folowing soaps in it's formula: ",
+        "siliconesalert": "It contains the folowing silicones in it's formula: ",
+        "waxesalert": "It contains the folowing waxes in it's formula: ",
+        "WitchHazelalert": "It contains the folowing ingredient in it's formula: "
+
+    },
+    "about": {
+        "title": "About me",
+        "description": "I'm a curly girl enthusiast who's been doing the Curly Girl Method for about 3 years. I live in Argentina and this method isn't well-known and beauty company aren't used to making products using the CGM guidelines, so at first it was really hard for me to find the right products to stablish my routine.I've been learning web development (with JavaScript and React) for 9 months or so, and my idea of a sideproyect is something that has to be related to my interests, so it would give me a lot of joy to work on it, but at the same time I wanted to produce something useful that could help people or make thinks easier somehow; that's how I came with this website. Right now, it's still under construccion; but the mainly idea is to develop a website that can offer most of the things you need to get started with this method and build your own routine based on your hair needs.",
+        "contact": "You can contact me by emailing rocio.pantalone@gmail.com"
+    },
+    "toolbar": {
+        "home": "Home",
+        "analyzer": "Bot",
+        "recipes": "Recipes",
+        "faq": "FAQ",
+        "about": "About"
+    }
+}

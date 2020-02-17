@@ -1,7 +1,7 @@
 import React from "react";
 
-import recipesData from "./../Recipes/RecipesData";
-import RecipDescription from "./../Recipes/RecipDescription";
+import recipesData from "../Recipes/RecipesDataEN";
+import RecipDescription from "../Recipes/RecipCardPartial";
 
 
 const SearchBar = (props) => {
