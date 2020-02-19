@@ -27,7 +27,7 @@ export const recipesData = {
 	recipe3: {
 		number: "3",
 		type: "hydrating",
-		title: "MHydrating shock",
+		title: "Hydrating shock",
 		description: "This mask is very hydrating and reduces some frizz and gives shine.",
 		ingredients: [
 			"2 teaspoon of physiological solution",
@@ -159,7 +159,7 @@ export const recipesData = {
 			"optional:",
 			"1 rip banana"    
 		],
-		instructions: "Mix all in the blender and strain. Wash you hair as usual, put the mask in the ends and work your way up (remember to avoid puting the mask in the scalp), wait 0 minutes, wash with warm water and use you usual conditioner."
+		instructions: "Mix all in the blender and strain. Wash you hair as usual, put the mask in the ends and work your way up (remember to avoid puting the mask in the scalp), wait 30 minutes, wash with warm water and use you usual conditioner."
 	},
 	recipe14: {
 		number: "14",
@@ -172,7 +172,7 @@ export const recipesData = {
 			"3 teaspoon of honey",
 			"5 teaspoon of olive oil"      
 		],
-		instructions: "Wash you hair as usual, put the mask in the ends and work your way up (remember to avoid puting the mask in the scalp), wait 0 minutes, wash with warm water and use you usual conditioner."
+		instructions: "Mix all in the blender and strain. Wash you hair as usual, put the mask in the ends and work your way up (remember to avoid puting the mask in the scalp), wait 0 minutes, wash with warm water and use you usual conditioner."
 	},
 
 };

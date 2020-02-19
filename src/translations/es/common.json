@@ -37,8 +37,10 @@
 
     },
     "about": {
-        "title": "Sobre mi",
+        "title": "Sobre la pagina",
+        "metitle": "Sobre mi",
         "description": "I'm a curly girl enthusiast who's been doing the Curly Girl Method for about 3 years. I live in Argentina and this method isn't well-known and beauty company aren't used to making products using the CGM guidelines, so at first it was really hard for me to find the right products to stablish my routine.I've been learning web development (with JavaScript and React) for 9 months or so, and my idea of a sideproyect is something that has to be related to my interests, so it would give me a lot of joy to work on it, but at the same time I wanted to produce something useful that could help people or make thinks easier somehow; that's how I came with this website. Right now, it's still under construccion; but the mainly idea is to develop a website that can offer most of the things you need to get started with this method and build your own routine based on your hair needs.",
+        "medescription": "Sobre mi",
         "contact": "Puedes contactarme mandando un email: rocio.pantalone@gmail.com"
     },
     "toolbar": {
