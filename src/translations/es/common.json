@@ -47,5 +47,8 @@
         "recipes": "Recetas",
         "faq": "FAQ",
         "about": "Sobre mi"
+    },
+    "footer": {
+        "contact": "Contacto"
     }
 }

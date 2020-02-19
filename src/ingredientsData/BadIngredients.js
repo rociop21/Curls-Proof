@@ -152,7 +152,9 @@ export const witchHazel = [
 	"witch",
 	"hamamelis",
 	"hamamellis",
-	"hazel"
+	"hazel",
+	"witchhazel",
+	"witch hazel"
 ];
 
 export const wax = [
@@ -165,9 +167,17 @@ export const wax = [
 	"myrica pubescens fruit wax",
 	"synthetic beeswax",
 	"euphorbia cerifera (candelilla) wax",
+	"euphorbia cerifera wax",
+	"candelilla",
 	"stearoxytrimethyl silane and stearyl alcohol (silky wax)",
+	"stearoxytrimethyl silane and stearyl alcohol",
+	"silky wax",
 	"cera alba (beeswax)",
-	"microcrystalline wax (cera microcristallina)"
+	"cera alba",
+	"beeswax",
+	"microcrystalline wax (cera microcristallina)",
+	"microcrystalline wax",
+	"cera microcristallina"
 ];
 
 export const silicones = [

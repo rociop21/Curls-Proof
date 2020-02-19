@@ -13,7 +13,7 @@ const About = () => {
 
 	return (
 		<Container fluid={true}>
-			<Row>
+			<Row >
 				<Col md={{ span: 8, offset: 2 }} className="FAQ">
 					<h1 className="FAQTitle">{t("faq.title")}</h1>
 					<h4>{t("faq.faq1")}</h4>

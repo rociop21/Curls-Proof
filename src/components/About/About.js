@@ -17,13 +17,16 @@ const About = () => {
 	return (
 		<Container fluid={true}>
 			<Row>
-				<Col className="AboutMe">
+				<Col md={6} className="AboutMe">
 					<h1 className="AboutTitle">{t("about.title")}</h1>
 					<p>{t("about.description")}</p>
 					<p>{t("about.contact")}</p>
 				</Col>
-				<Col>
-					<Image src={PersonalImage} height="300px" rounded className="AboutImage"/>  
+				<Col md={3} className="AboutMe">
+					<h2 className="AboutTitle">{t("about.metitle")}</h2>
+					<Image src={PersonalImage} height="200px" roundedCircle className="AboutImage"/>
+					<p>{t("about.medescription")}</p>
+					  
 				</Col>
 			</Row>
 		</Container>

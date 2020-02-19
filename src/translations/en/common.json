@@ -37,9 +37,11 @@
 
     },
     "about": {
-        "title": "About me",
-        "description": "I'm a curly girl enthusiast who's been doing the Curly Girl Method for about 3 years. I live in Argentina and this method isn't well-known and beauty company aren't used to making products using the CGM guidelines, so at first it was really hard for me to find the right products to stablish my routine.I've been learning web development (with JavaScript and React) for 9 months or so, and my idea of a sideproyect is something that has to be related to my interests, so it would give me a lot of joy to work on it, but at the same time I wanted to produce something useful that could help people or make thinks easier somehow; that's how I came with this website. Right now, it's still under construccion; but the mainly idea is to develop a website that can offer most of the things you need to get started with this method and build your own routine based on your hair needs.",
-        "contact": "You can contact me by emailing rocio.pantalone@gmail.com"
+        "title": "About",
+        "metitle": "About me",
+        "description": "The main objective of this webpage app is to evaluate the ingredients in each hair products in acoordance with the Curly Girl Method (CGM) guidelines. The CGM is a hair care regimen design with natural curls in mind, the aim is to treat your curls gently, minimazing the damage to the cuticles to keep your hair mosturized; curly hair is way more prone to dryness so this can be achieved by stoping the use of harsh chemical (as sulfates) and using mosturizers that are water soluble. Every curly girl has to deal with ingredients, read ingredients, compare ingredients and trying to find the right products to stablish a routine with constant results. There are thousand of ingredients lists out there with names that are really difficult, so going to buy beauty products and having to real though all the bottles is a tiring task that can discourage a lot of people. The Analyzer read every ingredient to determine if it is recommended or not by the CGM, focusing on harsh ingredients(drying alcohols, sulfates, soaps) and not water soluble ingredients(silicones, waxes). We are hoping to add more functions and be able to tell you if the product has some proteins, humectants or water soluble silicones(some people wish to avoid them).",
+        "medescription": "I'm a curly girl enthusiast who's been doing the Curly Girl Method for about 3 years. I've been learning web development (with JavaScript and React) for 9 months or so, and my idea of a sideproyect is something that has to be related to my interests, so it would give me a lot of joy to work on it, but at the same time I wanted to produce something useful that could help people or make thinks easier somehow; that's how I came with this website. Right now, it's still under construccion; but the mainly idea is to develop a website that can offer most of the things you need to get started with this method and build your own routine based on your hair needs.",
+        "contact": "If you would like to get in touch with me to discuss about the Curly Girl Method and/or regarding questions or feedback on this webpage, please leave a message below or email me at rocio.pantalone@gmail.com. Look forward to hearing from you!"
     },
     "toolbar": {
         "home": "Home",
@@ -47,5 +49,8 @@
         "recipes": "Recipes",
         "faq": "FAQ",
         "about": "About"
+    },
+    "footer": {
+        "contact": "Contact"
     }
 }
