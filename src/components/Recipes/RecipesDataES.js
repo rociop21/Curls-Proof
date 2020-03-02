@@ -1,4 +1,4 @@
-export const recipesData = {
+export const recipesDataES = {
 	recipe1: {
 		number: "1",
 		type: "hydrating",
@@ -177,4 +177,4 @@ export const recipesData = {
 
 };
 
-export default recipesData;
+export default recipesDataES;

@@ -15,10 +15,7 @@ const Footer = () => {
                 <p>&copy; 2020 - Curls-Proof</p>
             </div>
             <div className="social">
-                <a href="#" class="support">{t("footer.contact")}</a>
-                <a href="#" class="face">f</a>
-                <a href="#" class="linked">in</a>
-                <a href="#" class="tweet">t</a>
+                <a href="mailto:rocio.pantalone@gmail.com" className="support">{t("footer.contact")}</a>
             </div>
         </div>
 	);

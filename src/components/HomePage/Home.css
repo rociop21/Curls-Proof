@@ -1,6 +1,7 @@
 .HomePage {
     color: black;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 75px;
 }
 
 .HomePage span{
@@ -8,92 +9,42 @@
     font-size: 25px;
 }
 
-
 .HomeMain {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.HomeMain img {
-    height: 560px;
+.HomeMainImg {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
 }
 
 .HomeTitle h1{
     opacity: 0.8;
-    margin-right: 50px;
     margin-top: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 200px;
-    padding-right: 100px;
     font-size: 70px;
 }
 .HomeTitle h4{
     opacity: 0.8;
-    margin-right: 50px;
     margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 200px;
-    padding-right: 100px;
     font-size: 30px;
 }
 .HomeTitle span{
     padding-right: 70px;
 }
 
-@media (max-width: 905px) {
+@media (max-width: 1000px) {
     .HomeTitle span{
         padding-right: 0;
     }
-    .HomeMain img {
-        height: 350px;
-    }
-}
-@media (max-width: 750px) {
-    .HomeTitle h1{
-        padding-left: 20px;
-        padding-right: 0px;
-        padding-top: 0px;
-    }
-    .HomeTitle h4{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 50px;
-    }
 }
 
-@media (max-width: 15110px) and (min-width: 1670px) {
-    .HomeTitle h1{
-        margin-right: 50px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 100px;
-    }
-    .HomeTitle h4{
-        margin-right: 50px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 100px;
-    }
-    .HomeMain img {
-        height: 450px!important;
-        padding-left: 150px;
-    }
-}
 
-@media (min-width: 750px) and (max-width: 15110px) {
-    .HomeMain img {
-        height: 350px;
-    }
-    .HomeTitle h1{
-        padding-left: 70px!important;
-    }
-    .HomeTitle h4{
-        padding-left: 70px!important;
-        padding-bottom: 40px!important;
-    }
-}
 
 .HomeAnalyze {
     margin-top: 35px;

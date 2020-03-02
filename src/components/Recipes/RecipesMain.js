@@ -3,11 +3,13 @@ import "./Recipes.css"
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import i18next from 'i18next';
 
-import RecipDescription from "./RecipCardPartial"
-import recipesData from "./RecipesDataEN"
-import SearchInput from "./../SearchBar/SearchInput"
-import SearchBar from "./../SearchBar/SearchBar"
+import RecipDescription from "./RecipCardPartial";
+import recipesDataEN from "./RecipesDataEN";
+import recipesDataES from "./RecipesDataES";
+import SearchInput from "./../SearchBar/SearchInput";
+import SearchBar from "./../SearchBar/SearchBar";
 
 class recipesMain extends Component {
     
@@ -31,7 +33,18 @@ class recipesMain extends Component {
     };
 
     render () {
+
         const recipesElements = [];
+
+        let language = i18next.languages[0]
+
+        let recipesData= null;
+
+        if (language == "es") {
+            recipesData = recipesDataES;
+        } else {
+            recipesData = recipesDataEN;
+        }
 
         for (let key in recipesData) {
             recipesElements.push({
@@ -57,8 +70,8 @@ class recipesMain extends Component {
         return (
             <Container fluid={true} className="RecipesContainer">
                 <Row>
-                    <SearchInput value={this.state.value} changed={this.InputChangedHandler} clicked={this.SubmitHandler} disabled={this.state.disabled} />
                     <Col md={{ span: 10, offset: 1 }}>
+                        <SearchInput value={this.state.value} changed={this.InputChangedHandler} clicked={this.SubmitHandler} disabled={this.state.disabled} />
                         {this.state.search ? <SearchBar value={this.state.search} /> : recipesList}
                     </Col>
                 </Row>  

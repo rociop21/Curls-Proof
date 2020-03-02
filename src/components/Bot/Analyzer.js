@@ -69,7 +69,7 @@ const Analyzer = (props) => {
 	}
 
 	return (
-		<Alert variant={alertVariant}>
+		<Alert className="BotResultAlert" variant={alertVariant}>
 			{resultText}
 			<hr />
 			{adviceText}

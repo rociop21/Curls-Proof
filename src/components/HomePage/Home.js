@@ -20,7 +20,7 @@ const Home = () => {
 	return (
 		<Container fluid={true}  className={"HomePage"}>
 			<Row  className={"HomeMain"}>
-				<Col md="auto" className={"HomeTitle"}>
+				<Col className={"HomeTitle"} md={{ span: 6, offset: 1 }}>
 					<h1>
 						{t("home.title1")} {<br />} <span> </span>{t("home.title2")}
 					</h1>
@@ -28,8 +28,8 @@ const Home = () => {
 						{t("home.intro")}
 					</h4>
 				</Col>
-				<Col md="auto">
-					<img src={landing} alt="Beauty Products"/>
+				<Col md={{ span: 5, offset: 0 }}>
+					<img src={landing} alt="Beauty Products" className="HomeMainImg"/>
 				</Col>
 			</Row> 
 			<Row className={"HomeAnalyze"}>

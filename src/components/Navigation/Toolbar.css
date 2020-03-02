@@ -73,3 +73,14 @@ a:hover {
   .hvr-overline-from-left:hover:before, .hvr-overline-from-left:focus:before, .hvr-overline-from-left:active:before {
     right: 0;
   }
+
+  .LngButton {
+      background-color: transparent;
+      color: #D9FDF2;
+      border: transparent;
+  }
+
+  .LngButtonSeparation {
+    color: #D9FDF2;
+    margin: 0;
+  }

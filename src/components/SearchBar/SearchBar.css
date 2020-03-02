@@ -1,8 +1,12 @@
 .SearchForm {
-    position: absolute;
-    right: 150px;
-    top: 60px;
     margin-top: 20px;
+    justify-content: flex-end;
+}
+
+@media (max-width: 575px) {
+    .SearchForm, .btn-outline-success {
+        margin-top: 20px;
+    }
 }
 
 .SearchResultP {
