@@ -6,7 +6,7 @@ import Footer from "./../../components/Footer/Footer"
 import "./Layout.css";
 
 const Layout = (props) => (
-	<div id="wrap">
+	<div className="wrap">
 		<Toolbar />
 		<main className="Content">
 			{props.children}

@@ -18,7 +18,7 @@
     },
     "bot": {
         "title": "Curls-Proof Ingredients Analyzer",
-        "subtitle1": "In",
+        "subtitle1": "In ",
         "subtitle2": "we aim to make it easier for you to decide on each product so you can concentrate on taking good care of your hair.",
         "instructions": "Enter the ingredients of the product you want to test, separate ingredients with a comma and click 'Analyze!' to see if it contains any harm ingredient.",
         "advice": "Since typing the ingredients yourself may result in innacuracies, we recommend you find the list of ingredients on the brand's website and paste it here.",
@@ -37,14 +37,16 @@
 
     },
     "about": {
-        "title": "About",
+        "title": "About Curls-Proof",
         "metitle": "About me",
-        "description": "The main objective of this webpage app is to evaluate the ingredients in each hair products in acoordance with the Curly Girl Method (CGM) guidelines. The CGM is a hair care regimen design with natural curls in mind, the aim is to treat your curls gently, minimazing the damage to the cuticles to keep your hair mosturized; curly hair is way more prone to dryness so this can be achieved by stoping the use of harsh chemical (as sulfates) and using mosturizers that are water soluble. Every curly girl has to deal with ingredients, read ingredients, compare ingredients and trying to find the right products to stablish a routine with constant results. There are thousand of ingredients lists out there with names that are really difficult, so going to buy beauty products and having to real though all the bottles is a tiring task that can discourage a lot of people. The Analyzer read every ingredient to determine if it is recommended or not by the CGM, focusing on harsh ingredients(drying alcohols, sulfates, soaps) and not water soluble ingredients(silicones, waxes). We are hoping to add more functions and be able to tell you if the product has some proteins, humectants or water soluble silicones(some people wish to avoid them).",
-        "medescription": "I'm a curly girl enthusiast who's been doing the Curly Girl Method for about 3 years. I've been learning web development (with JavaScript and React) for 9 months or so, and my idea of a sideproyect is something that has to be related to my interests, so it would give me a lot of joy to work on it, but at the same time I wanted to produce something useful that could help people or make thinks easier somehow; that's how I came with this website. Right now, it's still under construccion; but the mainly idea is to develop a website that can offer most of the things you need to get started with this method and build your own routine based on your hair needs.",
-        "contact": "If you would like to get in touch with me to discuss about the Curly Girl Method and/or regarding questions or feedback on this webpage, please leave a message below or email me at rocio.pantalone@gmail.com. Look forward to hearing from you!"
+        "description1": "The main objective of this webpage app is to evaluate the ingredients in each hair products in acoordance with the Curly Girl Method (CGM) guidelines. The CGM is a hair care regimen design with natural curls in mind, the aim is to treat your curls gently, minimazing the damage to the cuticles to keep your hair mosturized; curly hair is way more prone to dryness than straight hair, since the natural oils that our scal produces don't distrubute equaly throughout the entire hair strand's lenght.",
+        "description2": "This can be achieved by stoping the use of harsh chemical (as sulfates) and using mosturizers that are water soluble (If you use products that are not water soluble, you will probably need to use some kind of sulfates to remove them, or they can coat the hair strand). Every curly girl in this journey has to deal with ingredients, read ingredients, compare ingredients and trying to find the right products to stablish a routine with constant results. There are thousand of ingredients lists out there with names that are really difficult, so going to buy beauty products and having to read though all the bottles is a tiring task that can discourage a lot of people.",
+        "description3": "The Analyzer reads every ingredient to determine if it is recommended or not by the CGM, focusing on harsh ingredients(drying alcohols, sulfates, soaps) and not water soluble ingredients(silicones, waxes). We are hoping to add more functions and be able to tell you if the product has some proteins, humectants or water soluble silicones(some people wish to avoid them).",
+        "medescription1": "I'm a curly girl enthusiast who's been doing the Curly Girl Method for about 3 years. There aren't specific beauty products manufacturers that are focused on curly hair in Argentina, so I know the struggle.",
+        "medescription2": "I've been learning web development (with JavaScript and React) for a year or so, and my idea of a sideproyect is something that has to be related to my interests, so it would give me a lot of joy to work on it, but at the same time I wanted to produce something useful that could help people or make thinks easier somehow; that's how I came up with this website.",
+        "contact": "If you would like to get in touch with me to discuss about the Curly Girl Method and/or regarding questions or feedback on this webpage, please email me at rocio.pantalone@gmail.com. Look forward to hearing from you!"
     },
     "toolbar": {
-        "home": "Home",
         "analyzer": "Bot",
         "recipes": "Recipes",
         "faq": "FAQ",
@@ -52,5 +54,11 @@
     },
     "footer": {
         "contact": "Contact"
+    },
+    "recipes": {
+        "more": "Read more...",
+        "ingredients": "Ingredients",
+        "Share": "Share",
+        "Tweet": "Tweet"
     }
 }

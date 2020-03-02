@@ -1,8 +1,14 @@
 .FAQ {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 0px;
 }
 
 .FAQTitle {
     margin-bottom: 40px;
+    font-family: 'Bitter';
+}
+
+.QTitle {
+    font-family: 'Bitter';
+    padding: 10px 0px;
 }

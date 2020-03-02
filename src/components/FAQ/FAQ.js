@@ -16,9 +16,9 @@ const About = () => {
 			<Row >
 				<Col md={{ span: 8, offset: 2 }} className="FAQ">
 					<h1 className="FAQTitle">{t("faq.title")}</h1>
-					<h4>{t("faq.faq1")}</h4>
+					<h4 className="QTitle">{t("faq.faq1")}</h4>
 					<p>{t("faq.answer1")}</p>
-					<h4>{t("faq.faq2")}</h4>
+					<h4 className="QTitle">{t("faq.faq2")}</h4>
 					<p>{t("faq.answer2")}</p>
 				</Col>
 			</Row>

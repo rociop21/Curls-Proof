@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import Card from "react-bootstrap/Card";
 
@@ -7,6 +8,9 @@ import "./Recipes.css";
 import {BrowserRouter as Router, Link} from "react-router-dom";
 
 const RecipDescription = (props) => {
+
+	const { t } = useTranslation("common");
+
 	return(
 		<div>
 			<br />
@@ -15,8 +19,8 @@ const RecipDescription = (props) => {
 				<Card.Body>
 					<Card.Text>
 						{props.description}
-						<br />
-						<Link to={`/recipes/${props.number}`}>Read more...</Link>
+						<br /><br />
+						<Link to={`/recipes/${props.number}`}>{t("recipes.more")}</Link>
 					</Card.Text>
 				</Card.Body>
 			</Card>

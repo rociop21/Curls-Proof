@@ -37,14 +37,16 @@
 
     },
     "about": {
-        "title": "Sobre la pagina",
+        "title": "Sobre Curls-Proof",
         "metitle": "Sobre mi",
-        "description": "I'm a curly girl enthusiast who's been doing the Curly Girl Method for about 3 years. I live in Argentina and this method isn't well-known and beauty company aren't used to making products using the CGM guidelines, so at first it was really hard for me to find the right products to stablish my routine.I've been learning web development (with JavaScript and React) for 9 months or so, and my idea of a sideproyect is something that has to be related to my interests, so it would give me a lot of joy to work on it, but at the same time I wanted to produce something useful that could help people or make thinks easier somehow; that's how I came with this website. Right now, it's still under construccion; but the mainly idea is to develop a website that can offer most of the things you need to get started with this method and build your own routine based on your hair needs.",
-        "medescription": "Sobre mi",
-        "contact": "Puedes contactarme mandando un email: rocio.pantalone@gmail.com"
+        "description1": "El objetivo principal de esta página web es evaluar los ingredientes en cada producto capilar segun los lineamientos del Metodo de la Chica Rizada (CGM son sun siglas en inglés). El CGM es un régimen de cuidado del cabello diseñado segun las necesidades del cabello naturalmente con rulos, el objetivo es tratazar a los rizos con cuidado, minimizando los daños a la cutícula del cabello para mantenerlo hidratado; el pelo rizado es más propenso a resecarse que el pelo lacio, dado que los aceites naturales que nuestro cuero cabelludo producen no se dispersan de forma equitativa a lo largo de cada hebra.",
+        "description2": "Todo esto puede lograrse dejando se usar productos químicos fuertes (como los sulfátos) y usando hidratantes que sean solubles en agua (si se usan productos que no son solubles en agua, probablemente tambinén se necesita usar algún tipo de sulfato para removerlos, sino cubririan la superficie de las hebras del cabello). Toda chica rizada en este camino tiene que lidiar con ingredientes, leer ingredientes, comparar ingredientes y tratar de encontrar los productos correctos para establecer una rutina de forma de obtener resultados constantes en cada lavado. Hay cientos de listas de ingredientes en internet con nombres que son inpronunciables, asi que ir a comprar productos capilares y tener que leer todas las botellas puede ser algo cansador que probablemente va a desanimar a muchas personas.",
+        "description3": "El analizador lee cada ingrediente y determina si es recomendado o no por el CGM, se enfoca en los productos que resecan el pelo (alcoholes y sulfátos) y en los que no son solubles en agua (siliconas y ceras). Esperamos añadir mas funcione spronto para determinar si los productos contienen proteinas, humectantes o siliconas solubles (algunas personas eligen evitarlas).",
+        "medescription1":  "Soy naturalmente rizada y llevo 3 años siguiendo el CGM. En Argentina no hay manufacturadores de productos de belleza que se enfoquen especialmente en el pelo con rulos, así que entiendo que puede ser muy dificil a veces.",
+        "medescription2": "Llevo un año aprendiendo desarrollo web (con JavaScript y React) y por eso decidi hacer esta pagina como proyecto personal. Mi idea de un proyecto es algo que este relacionado con mis intereses pero que a la vez tenga un objetivo practico, en este caso me pareció interesante el hecho de poder ayudar a las personas que quieren iniciarse en el método.",
+        "contact": "Si quieres ponerte en contacto conmigo para discutir sobre el método y/o tienes alguna pregunta o comentarios sobre esta página web, puedes mandarme un mail a rocio.pantalone@gmail.com. Espero con ansias conectar con ustedes!"
     },
     "toolbar": {
-        "home": "Home",
         "analyzer": "Analizador",
         "recipes": "Recetas",
         "faq": "FAQ",
@@ -52,5 +54,11 @@
     },
     "footer": {
         "contact": "Contacto"
+    },
+    "recipes": {
+        "more": "Leer más...",
+        "ingredients": "Ingredientes",
+        "Share": "Compartir",
+        "Tweet": "Tuitear"
     }
 }
