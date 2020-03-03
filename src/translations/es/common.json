@@ -18,8 +18,8 @@
     }, 
     "bot": {
         "title": "Analizador de ingredientes Curls-Proof",
-        "subtitle1": "En",
-        "subtitle2": "Nuestro objetivo es facilitarle la decision sobre cada producto, para que se pueda concentrar el cuidar de su cabello y pensar cual sera su siguiente mascarilla.",
+        "subtitle1": "En ",
+        "subtitle2": "nuestro objetivo es facilitarle la decision sobre cada producto, para que se pueda concentrar el cuidar de su cabello y pensar cual sera su siguiente mascarilla.",
         "instructions": "Escriba los ingredientes del producto que quiere analizar, separe los ingredientes por comas y haga click en 'Analiza' para ver si el producto contiene algun ingrediente no recomendado.",
         "advice": "Dado que escribir los ingredientes manualmente uno misno puede conllevar errores de escritura, recomendamos que busque la lista de ingrentes en la pagina web del manufactor o en la de su tienda y la pegue en el recuadro.",
         "button": "Analiza!" 
