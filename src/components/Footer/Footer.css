@@ -2,7 +2,7 @@
     width: 100%;
     display: inline-block;
     height: 40px;
-    background-color: #999;
+    background-color: #495057;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -11,9 +11,6 @@
 .copyright {
     width: 70%;
     float: left;
-    @media (max-width: 600px) {
-    width: 100%;
-    }
 }
 
 .copyright p {
@@ -23,18 +20,12 @@
     line-height: 40px;
     text-transform: capitalize;
     letter-spacing: 1px;
-    @media (max-width: 600px) {
-        text-align: center;
-        padding: 0;
-    }
-}   
+    
+}
 
 .social {
     width: 30%;
     float: right;
-    @media (max-width: 600px) {
-    width: 100%;
-    }
 }
 
 .social a {
@@ -48,18 +39,31 @@
 }
 
 .social a:hover {
-    background-color: #222;
+    background-color: rgb(68, 70, 119);
     transition: background-color 0.3s ease;
     color: white;
 }
 
 .social a:active {
-    background-color: #222;
+    background-color: rgb(68, 70, 119);
     color: white;
 }
   
-  .support {
-    background-color: #2F3475;
-    font-size: 1em;
-    width: 100%;
-  }
+.support {
+background-color: #2F3475;
+font-size: 1em;
+width: 100%;
+}
+
+@media (max-width: 600px) {
+    .copyright p {
+        text-align: center;
+        padding: 0;
+    }
+    .copyright {
+        width: 100%;
+    }
+    .social {
+        width: 100%;
+    }
+}
